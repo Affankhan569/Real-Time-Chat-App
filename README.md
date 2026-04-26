@@ -1,19 +1,19 @@
-# Real-Time Chat Application 💬
+# Real-Time Chat Application 
 
 A full-stack, real-time messaging application built with the MERN stack and WebSockets. It features secure JWT authentication, direct 1-on-1 messaging, real-time online presence tracking, and infinite scrolling pagination.
 
-## 🚀 Tech Stack
+## Tech Stack
 * **Frontend:** React.js, Socket.io-client
 * **Backend:** Node.js, Express.js, Socket.io
 * **Database:** MongoDB, Mongoose
 * **Security:** JSON Web Tokens (JWT), bcryptjs
 
-## ⚙️ Prerequisites
+## Prerequisites
 To run this project locally, you will need:
 * [Node.js](https://nodejs.org/) installed on your machine.
 * A running MongoDB database (either a local instance or a cloud cluster via MongoDB Atlas).
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 **1. Clone the repository**
 \`\`\`bash
