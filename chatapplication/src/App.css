@@ -1,0 +1,25 @@
+.whatsapp-bg { background-color: #e5ddd5; }
+.typing-bubble {
+  background-color: #ffffff;
+  padding: 12px 18px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+  align-self: flex-start;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  border-top-left-radius: 0; 
+}
+.typing-bubble span {
+  height: 8px; width: 8px; background-color: #8c8c8c; border-radius: 50%;
+  display: inline-block; animation: bounce 1.4s infinite ease-in-out both;
+}
+.typing-bubble span:nth-child(1) { animation-delay: -0.32s; }
+.typing-bubble span:nth-child(2) { animation-delay: -0.16s; }
+@keyframes bounce {
+  0%, 80%, 100% { transform: scale(0); }
+  40% { transform: scale(1); }
+}
+.chat-window::-webkit-scrollbar { width: 6px; }
+.chat-window::-webkit-scrollbar-thumb { background: #ccc; border-radius: 3px; }
